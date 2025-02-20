@@ -26,7 +26,7 @@ A partir da saída do comando, encontramos o conteúdo da conversa de chat a seg
 
 >`openssl des3 -d -salt -in file.des3 -out file.txt -k supersecretpassword123`
 
-O comando acima encontrado nos revela que o arquivo foi encriptado com usando um método conhecido como `Triple Data Encryption Standard (3DES),` um algoritmo que aplica o DES (Data Encryption Standard) três vezes para aumentar a segurança. O `Salt` é um valor aleatório adicionado antes da criptografia para dificultar ataques de força bruta e dicionário, garantindo que a mesma senha produza saídas diferentes.
+O comando acima encontrado nos revela que o arquivo foi encriptado usando um método conhecido como `Triple Data Encryption Standard (3DES),` um algoritmo que aplica o DES (Data Encryption Standard) três vezes para aumentar a segurança. O `Salt` é um valor aleatório adicionado antes da criptografia para dificultar ataques de força bruta e dicionário, garantindo que a mesma senha produza saídas diferentes.
 
 Além disso, a conversa menciona que o arquivo estaria sendo enviado na porta `9002`.
 
